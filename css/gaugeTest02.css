@@ -1,0 +1,18 @@
+#wrapper{
+    width: 400px;
+    height: 400px;
+    /* position: fixed;
+    bottom: 0;
+    right: 0; */
+    border: 1px solid black;
+  }
+   
+  #meter{
+    width: 100%;
+    height: 100%;
+  }
+
+  #low{
+    transform: rotateX(180deg) rotateY(180deg);
+    transform-origin: center;
+  }

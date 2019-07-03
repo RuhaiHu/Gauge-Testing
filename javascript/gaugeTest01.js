@@ -112,6 +112,7 @@ class ProgressCircle extends HTMLElement {
         //     </style>
     }
 
+    // this is causing me issues
     setProgress(percent) {
         //const offset = this._circumference - (percent / 100 * this._circumference);
         const circle = this._root.querySelector('circle');
